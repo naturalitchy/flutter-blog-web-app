@@ -13,8 +13,17 @@ class HomeScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.orange,
-        title: Text('Code Factory!!'),
+        title: Text('Code Factory'),
         centerTitle: true,
+
+        leading: IconButton(
+          onPressed: () {
+            controller!.goBack();
+          },
+          icon: Icon(
+            Icons.arrow_back,
+          ),
+        ),
 
         actions: [
           IconButton(
@@ -25,14 +34,6 @@ class HomeScreen extends StatelessWidget {
               },
               icon: Icon(
                 Icons.home,
-              ),
-          ),
-          IconButton(
-              onPressed: () {
-                controller!.goBack();
-              },
-              icon: Icon(
-                Icons.arrow_back,
               ),
           ),
           IconButton(
