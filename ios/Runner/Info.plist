@@ -3,11 +3,11 @@
 <plist version="1.0">
 <dict>
 
-    <key>NSAppTransportSecurity</key>
-    <dict>
-        <key>NSAllowsLocalNetworking</key>
+    <key›NSAppTransportSecurity‹/key>
+    ‹dict>
+        <key›NSAllowsLocalNetworking</key>
         <true/>
-        <key>NSAllowsArbitraryLoadsInWebContent</key>
+        <key›NSAllowsArbitraryLoadsInWebContent‹/key>
         <true/>
     </dict>
 
